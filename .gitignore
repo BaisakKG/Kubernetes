@@ -1,0 +1,38 @@
+/**/*.tfvars
+/**/*.tfplan
+# Created by https://www.gitignore.io/api/linux,terraform
+# Edit at https://www.gitignore.io/?templates=linux,terraform
+
+# Local .terraform directories
+/**/.terraform/*
+
+# .tfstate files
+/**/*.tfstate
+/**/*.tfstate.*
+
+
+# Created by https://www.gitignore.io/api/git,windows,terraform
+# Edit at https://www.gitignore.io/?templates=git,windows,terraform
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### Terraform ###
+# Local .terraform directories
+/**/.terraform/*
+
+# .tfstate files
+/**/*.tfstate
+/**/*.tfstate.*
